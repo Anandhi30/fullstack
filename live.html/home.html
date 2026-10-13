@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>home page</title>
+</head>
+<script>
+    function test(){
+        var first=document.getElementById("first").value;
+        var second=document.getElementById("second").value;
+        var result=+first+(+second);
+        alert(result);
+    }
+    function subtract(){
+        var first=document.getElementById("first").value;
+         var second=document.getElementById("second").value;
+        var result=+first+(+second);
+        alert(result);
+    }
+    function findFactorial(){
+        var first=document.grtElementBtId("fact").value;
+        var fact=1;
+        if(+first==0){
+            fact*=i;
+        }else{
+            for(i=1;i<=(+first);i++){
+                fact*=i;
+            }
+        }
+        alert(fact);
+    } 
+    var showScore=()=>{
+        var name=document.getElementById("name").value;
+        var mark1=document.getElementById("mark1").value;
+        var mark2=document.getElementById("mark2").value;
+        var mark3=document.getElementById("mark3").value;
+        var total=+mark1+(+mark2)+(+mark3);
+        var avg=total/3;
+        if(avg>50){
+            alert(name+"passed");
+
+        }else{
+            alert(name+"failed");
+        }
+    }
+
+</script>
+<body>
+    <h2>HOME PAGE</h2>
+    first number:<input type="text" id="first">
+    second number: <input type="text" id="second">
+    <button onclick="test()">add</button>
+    <button onclick="test()">subtract</button>
+    <h3> Find Factor</h3>
+    Enter name:input
+    
+    
+</body>
+</html>
