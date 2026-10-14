@@ -11,10 +11,18 @@ let multiply=(a,b)=>{
 }
 let findmax=(a,b)=>{
     if(a>b){
+     return a;
+    }else{
+        return b;
+    }
+let findMin=(a,b)=>{
+    if(a<b){
         return a;
     }else{
         return b;
     }
+}
+
 }
 
 export default add; // defalut export
