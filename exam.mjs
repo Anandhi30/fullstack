@@ -9,7 +9,13 @@ let subtract=(a,b)=>{
 let multiply=(a,b)=>{
     return a*b;
 }
+let findmax=(a,b)=>{
+    if(a>b){
+        return a;
+    }else{
+        return b;
+    }
+}
 
 export default add; // defalut export
-
-export {subtract,multiply}; // named export
+export {subtract,multiply}// defalut export
